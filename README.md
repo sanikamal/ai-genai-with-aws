@@ -1,38 +1,61 @@
-# LLM Apps with Amazon Bedrock
+# AI & Generative AI Applications with AWS 🚀
 
-Welcome to the Serverless LLM Apps with Amazon Bedrock project repository! This repository contains the coursework and additional mini projects that demonstrate my knowledge and expertise in deploying large language model-based applications using serverless technology with Amazon Bedrock.
+Explore and implement powerful **AI and Machine Learning** solutions using **Amazon Web Services (AWS)**. This repository demonstrates how to build end-to-end solutions using AWS's comprehensive tools for both **Machine Learning** and **Generative AI**.
 
-## Coursework Overview
+`Amazon Bedrock`, `Amazon SageMaker`, `Amazon CodeWhisperer`, `AWS Trainium`, `AWS Inferentia`, `Amazon Polly`, `Natural Language Processing (NLP)`, `Text Generation`, `Image Recognition`, `Generative AI Models`, `AWS Lambda`, `Amazon Rekognition`, `Multimodal Content Generation`, `Large Language Models (LLMs)`, `Custom AI Solutions`
 
-In this repository, you will find the coursework completed as part of the "Serverless LLM Apps with Amazon Bedrock" course. The coursework includes:
+## Contents 📚
 
-- Detailed documentation and code for deploying a large language model-based application into production using serverless technology.
-- Hands-on exercises and projects demonstrating the deployment of an event-driven audio summarizer that transcribes and summarizes audio conversations using Amazon Bedrock, Amazon Transcribe, and AWS Lambda.
-- Instructions on how to prompt and customize the responses of a large language model using Amazon Bedrock.
-- Guidance on enabling logging for all calls made to the large language model to maintain security, audit, and compliance standards.
+| 🏷 **Title**       | 📄 **Description**     | 🛠 **Technology/Library**    | 🔗 **Link**     |
+|--------------------|------------------------|-----------------------------|-------------------|
+| **First Generations with Amazon Bedrock** | Introduction to Amazon Bedrock for generating customized, powerful responses. Learn how to prompt models to create tailored content. | `Amazon Bedrock`, `Content Generation`, `Model Prompting` | [Notebook Link](notebook/first_generations_amazon_bedrock.ipynb) |
 
-## Additional Mini Projects
 
-In addition to the coursework, this repository also contains additional mini-projects that showcase my knowledge and expertise in serverless technology and natural language processing. Some examples of mini-projects include:
 
-- Sentiment Analysis: Deploying a serverless sentiment analysis application using Amazon Comprehend and AWS Lambda.
-- Text Summarization: Building a serverless text summarization application using natural language processing techniques and AWS Lambda.
-- Chatbot Development: Creating a serverless chatbot application using Amazon Lex and AWS Lambda for automated customer support.
+## AWS Development Environment Setup:
 
-## Getting Started
+To run the code in these files in your own environment, you will need to install some Python dependencies and have access to an AWS environment.
 
-To get started with exploring the coursework and additional mini-projects, follow these steps:
+### Steps to Set Up AWS Development Environment:
 
-1. Clone this repository to your local machine:
+1. **Create an AWS Account and an IAM User**  
+   Follow this guide for more details: [AWS Account Setup Guide](https://docs.aws.amazon.com/SetUp/latest/UserGuide/setup-overview.html)
 
+2. **Generate Access Keys for Your IAM User**  
+   For more information, see here: [Creating Access Keys](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html#Using_CreateAccessKey)
+
+3. **Install the AWS CLI**  
+   Follow this guide for more details: [AWS CLI Installation Guide](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
+
+4. **Configure AWS CLI**  
+   Run `aws configure` with your access keys, and set the default region to `'us-west-2'` for this code. For more information, see here: [Configuring AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html#cli-configure-files-methods)
+
+5. **Use Boto3 for AWS SDK in Python**  
+   Boto3 is the AWS SDK for Python, which allows your locally run code to interact with your AWS account. For more information, see: [Boto3 Documentation](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)
+
+### Requirements File
+
+This code was developed and tested on **Python 3.11**.
+
+```bash
+boto3==1.28.68
 ```
-git clone https://github.com/sanikmal/generative-ai-with-aws.git
-```
 
-2. Navigate to the project directory:
+## Hardware Acceleration with AWS 🚀
 
-```
-cd serverless-llm-apps
-```
+AWS offers specialized hardware for AI workloads:
 
-3. Explore the coursework and mini projects in the respective directories.
+- **AWS Trainium**: Custom-designed for efficient training of machine learning models, reducing training time and cost.
+- **AWS Inferentia**: Optimized for high-performance and cost-effective inference, accelerating machine learning models in production.
+
+## Credits 🙌
+
+Special thanks to the AWS and AI community for their contributions and support.
+
+## Contributing 🤝
+
+Contributions are welcome! If you have any ideas or improvements, feel free to submit a pull request.
+
+## License 📄
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
