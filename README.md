@@ -9,6 +9,10 @@ Explore and implement powerful **AI and Machine Learning** solutions using **Ama
 | 🏷 **Title**       | 📄 **Description**     | 🛠 **Technology/Library**    | 🔗 **Link**     |
 |--------------------|------------------------|-----------------------------|-------------------|
 | **First Generations with Amazon Bedrock** | Introduction to Amazon Bedrock for generating customized, powerful responses. Learn how to prompt models to create tailored content. | `Amazon Bedrock`, `Content Generation`, `Model Prompting` | [Notebook Link](notebook/first_generations_amazon_bedrock.ipynb) |
+| **Audio to Insight: Transcribe and Summarize🎤** | Convert audio recordings into written transcripts using Amazon Transcribe, then summarize the transcripts using the Amazon Titan LLM. | `Amazon Bedrock`, `Amazon Transcribe`, `Amazon Titan`,`Amazon S3`, `Audio Summarization` | [Notebook Link](notebook/summarize_audio.ipynb) |
+| **Enable Logging for LLM Calls** | Enable logging for all calls made to **LLMs** to ensure security, audit, and compliance. Track every interaction and maintain a transparent record for auditing purposes.🔒 | `Amazon Bedrock`,`LLM Logging`, `Security`, `Compliance`, `Amazon CloudWatch` | [Notebook Link](notebook/enable_logging_llm_calls.ipynb) |
+
+
 
 
 
